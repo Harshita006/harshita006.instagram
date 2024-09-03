@@ -1,0 +1,29 @@
+.header{
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(244,244,253);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+form input,
+form textarea{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 30px;
+    width: 350px;
+}
+form button
+{
+    background-color: #007bbf;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 350px;
+}
